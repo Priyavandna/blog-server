@@ -1,4 +1,4 @@
-import User from 'file:///C:/Users/ranaw/Downloads/BLOG%20Project/server/model/user.js';
+import User from '../model/user.js';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
