@@ -1,6 +1,6 @@
 import express from 'express';
-import { signupUser} from 'file:///C:/Users/ranaw/Downloads/BLOG%20Project/server/controller/user-controller.js';
-import { loginUser } from 'file:///C:/Users/ranaw/Downloads/BLOG%20Project/server/controller/user-controller.js';
+import { signupUser} from '../controller/user-controller.js';
+import { loginUser } from '../controller/user-controller.js';
 import { uploadImage,getImage } from '../controller/image-controller.js';
 import { createPost,getAllPosts,getPost,updatePost,deletePost} from '../controller/post-controller.js';
 import { authenticateToken } from '../controller/jwt-controller.js';
